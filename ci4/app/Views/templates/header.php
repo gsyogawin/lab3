@@ -146,6 +146,9 @@ h1 {
   <li><a name="b1" href="#Introduction">Introduction</a></li>
   <li><a name="b1"href="#Interests">Interests</a></li>
   <li><a name="b1"href="#Socials">Socials</a></li>
+  <li><a name="b1"href="#Socials">Form Validation</a></li>
+  <li><a name="b1"href="#Socials">Guest Registration</a></li>
+  <li><a name="b1"href="#Socials">News</a></li>
 </ul>
 
 <!-- INTRODUCTION Page -->
@@ -162,7 +165,7 @@ h1 {
 
   <div class="column">
 
-	<img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t39.30808-6/319626007_5611135638954472_6291532338573376505_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHKMuCf5FlOt2PaJqQFtUBJ-Yi4epO1pKf5iLh6k7WkpzGQj1xRnfGQ4Xkzuw5GazrpM09v3uYZffMAcNpmyxK7&_nc_ohc=5j5f9e7X53oAX-OBiCf&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfBikZb9cW54beWjSUibqNj0kNzkaeSAypdHcyv1vbnlaw&oe=63C17D89" alt="Profile Photo" style = "position: static; width: 360px; height: 375px;">
+	
 	</div>
 	
 	</div>
