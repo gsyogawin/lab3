@@ -6,10 +6,13 @@ use CodeIgniter\Model;
 
 class GuestModel extends Model
 {
-	protected $table = 'gsyogawin_myguests'
-		
-		public function getGuest()
-		{
-			return $this->findAll();
-		}
+    protected $table = 'gsyogawin_myguests';
+
+    protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
+
+	
+	 public function getGuest()
+    {     
+        return $this->findAll();
+    }
 }

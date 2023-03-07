@@ -35,15 +35,18 @@ use App\Controllers\Guest;
 use App\Controllers\News;
 use App\Controllers\Pages;
 
+//guest routes
 $routes->match(['get', 'post'], 'guest/create', [Guest::class, 'create']);
 $routes->get('guest', [Guest::class, 'index']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);
 $routes->get('news', [News::class, 'index']);
-
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
@@ -60,5 +63,3 @@ $routes->get('(:segment)', [Pages::class, 'view']);
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
-
-?>

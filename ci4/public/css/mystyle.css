@@ -1,0 +1,132 @@
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E79597;
+}
+
+
+li {
+  float: left;
+  display: inline;
+}
+
+a b1 {
+  display: block;
+  padding: 8px;
+  background-color: #E79597;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #C76669;
+}
+
+
+.active {
+  background-color: #04AA6D;
+}
+
+#Introduction {
+background:#E1C4C4;
+padding:15px;
+}
+
+#Interests {
+background:#E1C4C4;
+padding:15px;
+}
+
+#Socials {
+background:#E1C4C4;
+padding:15px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color:#C72C30;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4EA3A1;
+}
+
+.button1:hover {
+  background-color: #4EA3A1;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #E9B54E;
+}
+
+.button2:hover {
+  background-color: #E9B54E;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #40D3CC;
+}
+
+.button3:hover {
+  background-color: #40D3CC;
+  color: white;
+}
+
+.column2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
